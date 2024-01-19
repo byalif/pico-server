@@ -1,0 +1,10 @@
+spring:
+   datasource:
+      url: jdbc:mysql://picogram.cbcga8mua8q3.us-east-2.rds.amazonaws.com:3306/picogram
+      username: root
+      password: Wjps2018
+      driver-class-name: com.mysql.cj.jdbc.Driver
+   jpa:
+      show-sql: true
+      hibernate:
+         ddl-auto: update
